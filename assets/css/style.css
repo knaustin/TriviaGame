@@ -1,0 +1,49 @@
+/* font-family: 'Crimson Text', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Abril Fatface', cursive; */
+
+body {
+    background-image: url(../images/HPbackgroud.jpg);
+    background-color: black; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.gameBox {
+    border: goldenrod solid 3px;
+    padding: 2%;
+    background-color:rgba(196, 198, 207, 0.5);
+}
+
+.triviaTitle {
+    height: 30%;
+    width: 30%;
+}
+
+.instText {
+    text-align: center;
+}
+
+h3 {
+    font-family:'Pacifico', cursive; 
+    color: #2D2D2E;
+}
+
+.timer {
+    margin: 5px;
+    /* border: maroon 3px solid; */
+}
+
+button {
+    display: inline-block;
+    background-color: maroon;
+    color: goldenrod;
+    padding: 7px 25px;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
+    font-size: 22px;
+    border-radius: 50%;
+}
+
